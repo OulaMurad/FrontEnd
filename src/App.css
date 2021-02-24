@@ -1,0 +1,60 @@
+svg {
+  display: block;
+  width: 200%;
+  
+  overflow: visible;
+}
+
+svg rect.selection {
+  stroke: none;
+}
+
+#root {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 50px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left:600px;
+  
+  
+}
+
+
+
+
+.two-column-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+width: 900px;
+height: 900px;
+
+;}
+.one-column{ display: grid;
+  grid-template-columns: 1fr ;
+  margin-left: .1em;
+  margin-top: 500px;
+ width: 1000px;
+ height: 600px;
+}
+  
+
+.fields {
+  margin: 10em;
+}
+
+.field {
+  display:inline-block;
+  font-size: x-large;
+  margin:auto;
+}
+
+.field input {
+  margin-right: 1em;
+  font-size: x-large;
+}
